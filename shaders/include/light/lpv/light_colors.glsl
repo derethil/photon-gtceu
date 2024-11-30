@@ -1,7 +1,7 @@
 #if !defined INCLUDE_LIGHT_LPV_LIGHT_COLORS
 #define INCLUDE_LIGHT_LPV_LIGHT_COLORS
 
-const vec3[32] light_color = vec3[32](
+const vec3[64] light_color = vec3[64](
 	vec3(1.00, 1.00, 1.00) * 12.0, // Strong white light
 	vec3(1.00, 1.00, 1.00) *  6.0, // Medium white light
 	vec3(1.00, 1.00, 1.00) *  1.0, // Weak white light
@@ -33,7 +33,40 @@ const vec3[32] light_color = vec3[32](
 	vec3(0.0), // Unused
 	vec3(0.0), // Unused
 	vec3(0.60, 0.10, 1.00) * 12.0, // Nether portal
-	vec3(0.0)  // End portal
+	vec3(0.0),  // End portal
+
+	vec3(1.0, 0.1, 0.1) * 12.0, // Red
+	vec3(1.0, 0.5, 0.1) * 12.0, // Orange
+	vec3(1.0, 1.0, 0.1) * 12.0, // Yellow
+	vec3(0.7, 0.7, 0.0) * 12.0, // Brown
+	vec3(0.1, 1.0, 0.1) * 12.0, // Green
+	vec3(0.5, 1.0, 0.5) * 12.0, // Lime
+	vec3(0.1, 0.1, 1.0) * 12.0, // Blue
+	vec3(0.5, 0.5, 1.0) * 12.0, // Light blue
+	vec3(0.1, 1.0, 1.0) * 12.0, // Cyan
+	vec3(0.7, 0.1, 1.0) * 12.0, // Purple
+	vec3(1.0, 0.1, 1.0) * 12.0, // Magenta
+	vec3(1.0, 0.5, 1.0) * 12.0, // Pink
+	vec3(0.1, 0.1, 0.1) * 12.0, // Black
+	vec3(0.9, 0.9, 0.9) * 12.0, // White
+	vec3(0.3, 0.3, 0.3) * 12.0, // Gray
+	vec3(0.7, 0.7, 0.7) * 12.0,  // Light gray
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0), // Unused
+	vec3(0.0)  // Unused
 );
 
 const vec3[16] tint_color = vec3[16](

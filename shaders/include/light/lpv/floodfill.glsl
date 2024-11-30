@@ -4,7 +4,7 @@
 #include "voxelization.glsl"
 
 bool is_emitter(uint block_id) {
-	return 32u <= block_id && block_id < 64u;
+	return 32u <= block_id && block_id < 96u;
 }
 
 bool is_translucent(uint block_id) {
