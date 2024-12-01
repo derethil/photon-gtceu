@@ -1,10 +1,14 @@
+
 <br><br>
 
-<h1 align = "center">photon</h1>
+<h1 align = "center">photon-gtceu</h1>
 
 <p align = "center">A gameplay-focused shader pack for Minecraft</p>
 
 ![Screenshot](docs/images/a.png)
+
+> [!NOTE]
+> This is a forked version of [Photon](https://github.com/sixthsurge/photon) with additional lighting support for GTCEu blocks and items.
 
 ## acknowledgments
 
